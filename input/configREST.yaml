@@ -1,0 +1,13 @@
+jira:
+  protocol: "http"
+  host: "localhost"
+  port: "8080"
+  urlSuffix: "/jira"
+user:
+  login: "adautomendes"
+  jiraToken: "my_jira_token"
+worklog:
+  "JIRA-1234":
+    "2000-01-01": "1h"
+    "2000-01-02": "2h"
+    "2000-01-03": "3h"
